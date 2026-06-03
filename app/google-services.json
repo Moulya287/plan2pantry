@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096785732473",
+    "project_id": "plan2pantry-77cd8",
+    "storage_bucket": "plan2pantry-77cd8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096785732473:android:ce87d1bfdbcc8c66e905a8",
+        "android_client_info": {
+          "package_name": "com.plan2pantry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXC9W8eLvdrnWGcXAOfBefoCFWKTbLENc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

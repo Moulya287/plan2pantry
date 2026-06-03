@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="500dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/dialog_rounded_bg">
+
+        <!-- Grocery Icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="🛒"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:background="@drawable/circle_orange_bg"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Grocery Item"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="6dp"
+            android:layout_gravity="center" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:background="#341C02"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center" />
+
+        <!-- Item Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textSize="12sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/et_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="Enter item name"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_bg_light"
+            android:textColor="#333333"
+            android:textColorHint="#999999" />
+
+        <!-- Quantity -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="12sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/et_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="Enter quantity (e.g., 2)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_bg_light"
+            android:textColor="#333333"
+            android:textColorHint="#999999" />
+
+        <!-- Unit -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit"
+            android:textSize="12sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/et_unit"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="Enter unit (kg, liters, pcs)"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_bg_light"
+            android:textColor="#333333"
+            android:textColorHint="#999999" />
+
+        <!-- Category Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="12sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/sp_category"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/edittext_bg_light"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#757575"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:text="Add"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#341C02"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

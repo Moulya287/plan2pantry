@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gender Options -->
+    <string-array name="genders">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Activity Levels -->
+    <string-array name="activity_levels">
+        <item>Select Activity Level</item>
+        <item>Sedentary (little or no exercise)</item>
+        <item>Lightly active (exercise 1-3 days/week)</item>
+        <item>Moderately active (exercise 3-5 days/week)</item>
+        <item>Very active (exercise 6-7 days/week)</item>
+    </string-array>
+
+    <!-- Goals -->
+    <string-array name="goals">
+        <item>Select Your Goal</item>
+        <item>Lose weight</item>
+        <item>Maintain weight</item>
+        <item>Gain muscle</item>
+    </string-array>
+
+    <!-- Diet Types -->
+    <string-array name="diet_types">
+        <item>Select Diet Type</item>
+        <item>Vegetarian</item>
+        <item>Non-vegetarian</item>
+        <item>Eggitarian</item>
+    </string-array>
+
+    <!-- Grocery Categories -->
+    <string-array name="grocery_categories">
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Dairy</item>
+        <item>Meat &amp; Fish</item>
+        <item>Grains &amp; Rice</item>
+        <item>Spices &amp; Condiments</item>
+        <item>Snacks &amp; Beverages</item>
+        <item>Other</item>
+    </string-array>
+</resources>
